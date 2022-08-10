@@ -62,7 +62,7 @@ ssize_t _getline(char **line_ptr, size_t *n, FILE *stream)
 	buffer = malloc(sizeof(char) * 120);
 	if (!buffer)
 		return (-1);
-  
+ 
 	while (c != '\n')
 	{
 		r = read(STDIN_FILENO, &c, 1);
