@@ -9,8 +9,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <limits.h>
-/** #include <sys/wait.h>
- */
+#include <sys/wait.h>
 #include <signal.h>
 
 #define EXEC 1
